@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FAFAFA</color>
+    <color name="colorPrimaryDark">#FAFAFA</color>
+    <color name="colorAccent">#ffB60005</color>
+
+    <color name="layout_background">#F1F1F1</color>
+    <color name="top_bar_background">#FAFAFA</color>
+    <color name="text_default">#545454</color>
+    <color name="line_1">#D8D8D8</color>
+    <color name="theme_color">#ffB60005</color>
+    <color name="theme_color_half_trans">#80B60005</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_half_transparent_white">#88ffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="light_black">#33000000</color>
+    <color name="trans_black">#00000000</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="product_background_color">#FAFAFA</color>
+
+    <color name="bg_default">@color/layout_background</color>
+    <color name="common_border">#DFDFDF</color>
+    <color name="item_loan">#7887E7</color>
+    <color name="border_default">#ffF1F1F1</color>
+    <color name="dark">#5e5656</color>
+    <color name="bg_button_disable">#ff9B9B9B</color>
+    <color name="bg_button_disable_press">#809B9B9B</color>
+
+    <color name="item_label">#ff333333</color>
+    <color name="item_describe">#80333333</color>
+
+    <color name="item_yellow">#f5a623</color>
+
+    <color name="branch">#666666</color>
+    <color name="text_c">#ff493a</color>
+    <color name="dark_gray">#ff333333</color>
+    <color name="dark_gray_half_trans">#80333333</color>
+    <color name="light_gray">#ff999999</color>
+
+    <color name="product_label_color">#ff5389D9</color>
+    <color name="product_label_color_half_trans">#805389D9</color>
+    <color name="repayment">#5389d9</color>
+    <color name="loan_type">#007AFF</color>
+    <color name="name_color">#212121</color>
+    <color name="ID_card">#757575</color>
+    <color name="prohibit">#727478</color>
+
+</resources>

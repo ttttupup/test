@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ToolBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+    </style>
+    <style name="Toolbar.Theme" parent="ToolBar">
+        <item name="android:background">@color/top_bar_background</item>
+    </style>
+
+
+    <style name="Label"></style>
+
+    <style name="Label.Match" parent="Label">
+
+    </style>
+
+    <style name="Label.Wrap" parent="Label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="Label.Wrap.Center" parent="Label.Wrap">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="Label.Toolbar.Default" parent="Label.Wrap.Center">
+        <item name="android:textColor">@color/text_default</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Label.Wrap.Right" parent="Label.Wrap">
+        <item name="android:layout_gravity">right</item>
+    </style>
+    <style name="Action.Toolbar" parent="Label.Wrap.Right">
+        <item name="android:textColor">@color/text_default</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>
